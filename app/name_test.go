@@ -38,7 +38,7 @@ func TestRandomnessDistribution(t *testing.T) {
 	}
 
 	// Expect between 1 and 5 names
-	if(len(gotName) > 0 && len(gotName) < 6) {
+	if(len(gotName) > 0 && len(gotName) < 7) {
 		t.Logf("GetName() randomness distribution PASSED")
 	} else {
 		t.Errorf("GetName() randomness distribution FAILED")
